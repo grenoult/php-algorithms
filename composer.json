@@ -1,0 +1,17 @@
+{
+    "name": "php/algo",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Guillaume Renoult",
+            "email": "guillaume.renoult@gmail.com"
+        }
+    ]
+}
