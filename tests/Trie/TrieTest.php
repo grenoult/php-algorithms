@@ -57,6 +57,14 @@ class TrieTest extends \PHPUnit\Framework\TestCase
                 '', // prefix value
                 false // expected result
             ],
+            'Test invalid prefix 4' => [
+                'tea', // prefix value
+                false // expected result
+            ],
+            'Test invalid prefix 5' => [
+                'teaa', // prefix value
+                false // expected result
+            ],
         ];
     }
 }
